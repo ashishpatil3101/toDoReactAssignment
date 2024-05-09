@@ -1,15 +1,12 @@
-import { useState } from 'react'
 
-import './App.css'
+import TodoList from './componenet/TodoList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-      heyecmcc
-      </div>
+       <div className="App flex justify-center items-center h-screen">
+      <TodoList />
+    </div>
     
     </>
   )
