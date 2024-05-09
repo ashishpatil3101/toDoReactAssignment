@@ -23,7 +23,6 @@ const TodoRow = ({ todo, onDelete, onComplete }) => {
         </div>
     );
 
-
 };
 
 export default TodoRow;
