@@ -49,7 +49,7 @@ const TodoList = () => {
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             className="flex-1 border border-gray-300 px-4 py-2 rounded-md mr-2"
-            placeholder="Enter a new todo"
+            placeholder="Add task here..."
           />
           <Button onClick={handleAddTodo} variant="big">Add</Button>
         </div>
